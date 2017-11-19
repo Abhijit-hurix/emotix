@@ -10,7 +10,7 @@ class Header extends Component{
 				return
 			case false:
 				return (
-					<li><a className="google" href="/auth/google">Login With google</a></li>);
+					<li><a className="google" href="/auth/google">Login with Google</a></li>);
 			default:
 				return [
 						<li key="1" className="google"><a href="/api/logout">Logout</a></li>
@@ -28,7 +28,7 @@ class Header extends Component{
 					</Link>
 					<ul className="right">
 						<li>
-						<Link to={this.props.auth?'/surveys':'/'} className="google">
+						<Link to={this.props.auth?'/about':'/'} className="google">
 						About
 						</Link>
 						</li>
