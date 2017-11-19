@@ -1,0 +1,17 @@
+{
+    "name": "Proxima Nova",
+    "files": [{
+        "weight": 100,
+        "file": "./node_modules/materialize-css/dist/fonts/roboto/Roboto-Thin.woff2"
+    }, {
+        "weight": 300,
+        "file": " ./node_modules/materialize-css/dist/fonts/roboto/Roboto-Thin.woff"
+    }, {
+        "weight": 400,
+        "file": "./node_modules/materialize-css/dist/fonts/roboto/Roboto-Light.woff2"
+    }, {
+        "weight": 500,
+        "file": "./node_modules/materialize-css/dist/fonts/roboto/Roboto-Light.woff"
+        }
+    ]
+}

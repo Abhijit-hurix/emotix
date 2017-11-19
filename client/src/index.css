@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.parallax-container .parallax img{
+	display: block;
+}
+
+.header{
+	color: #fff;
+}
+nav{
+	position: fixed;
+	top:0px;
+	width: 100%;
+	z-index: 1;
+	background: #035a6f;
+	height: 63px;
+}
+nav .brand-logo{
+	left:20px;
+}
+nav .google:hover{
+	color:#fff;
+	background-color: #c54242;
+}
+nav .google{
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.5); 
+	min-width: 100px;
+	text-align: center;
+	margin: 0px 0px 0px 4px;
+}
+nav .about{
+	position: relative;
+}
+.landing .waves-effect{
+	z-index: 0;
+}
+.wrapper{
+	position: absolute;
+	top:63px;
+	left:0px;
+	width: 100%;
+	height: 562px;
+	overflow: hidden;
+}
+.landing{
+	background-color: #293B4D;
+	width: 100%;
+	position: relative;
+	height: 100%;
+	top:0px;
+}
+.landing .raw{
+	position: relative;
+	height: 562px;
+	width: 100%;
+	top:0px;
+	float: left;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+.landing #raw_1{
+	background-image: url('./assets/background3.jpg');
+ }
+.landing #raw_2{
+	background-image: url('./assets/robot_2.jpg');
+}
+.landing #raw_3{
+	background-image: url('./assets/robot_3.jpg');
+}
+.footer{
+	position: fixed;
+	text-align: center;
+	background-color: #02596f;
+	color:#fff;
+	width: 100%;
+	left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 8px 15px;
+}
+.landing .material-icons{
+	color: #52BAAF;
+}
+.arrow_container{
+	position: fixed;
+	right: 10px;
+	height: 40px;
+	width:20px;
+	top:500px;
+}
+.arrow_container i {
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+}
+.arrow_container .up_arrow{
+	transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    position: relative;
+    cursor: pointer;
+}
+.arrow_container .down_arrow{
+	transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: relative;
+    cursor: pointer;
+}
+.dotContainer{
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 111px;
+    bottom: 129px;
+}
+.dot{
+    position: relative;
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+    margin: 14px 0px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    opacity: 0.3;
+}
+.active{
+	opacity: 1;
+}
+.dashboard{
+	position: relative;
+	top:63px;
+}
+.dashboard .modRobot{
+	position: relative;
+	top:310px;
+}
+.dashboard .robHeader{
+	position: relative;
+	top:335px;
+}
