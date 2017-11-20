@@ -1,0 +1,71 @@
+.preloader {
+  background: #0B0B0B;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+.preloader #center {
+   width: 600px;
+   height: 40px;
+   position: absolute;
+   left: 50%;
+   top: 50%; 
+   margin-left: -300px;
+   margin-top: -50px;
+   background: rgba(0,0,0,1);
+  border: 2px solid rgba(255,255,255,1);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.2);
+}
+
+.preloader #main {
+  width: 200px;
+   height: 40px;
+  background: #92C81A;
+  float: left;
+  animation: stretch 5s infinite linear;
+}
+
+.preloader .row {
+  height: 10px;
+  width: 400px;
+  float: left;
+  display: inherit;
+  animation: squeeze 5s infinite linear;
+}
+
+.preloader .sq {
+  height: 10px;
+  width: 10px;
+  float: left;
+}
+
+.preloader #sq-2 { background: #4A672F;}
+.preloader #sq-3 { background: #1D2019;}
+.preloader #sq-6 { background: #2C341C;}
+.preloader #sq-1, #sq-5, #sq-9 {
+  background: #74B215;
+}
+.preloader #sq-4, #sq-8, #sq-12 {
+  background: #7BC415;
+}
+
+.preloader #sq-7, #sq-10, #sq-11 {
+  background: #92C81A;
+}
+
+@keyframes stretch {
+	0% {width: 200px;}
+  25% {width: 280px;}
+  50% {width: 360px;}
+  75% {width: 240px;}
+	100% {width: 200px;}
+}
+@keyframes squeeze {
+	0% {width: 400px;}
+  25% {width: 320px;}
+  50% {width: 140px;}
+  75% {width: 360px;}
+	100% {width: 400px;}
+}

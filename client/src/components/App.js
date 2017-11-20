@@ -5,6 +5,8 @@ import * as actions from '../actions';
 import Header from './Header';
 import Landing from './Landing';
 import Dashboard from './Dashboard';
+import Preloader from './Preloader';
+import './preloader.css';
 import '../index.css';
 const SurveyNew=()=> <div className="surveys">
 						<h1>Surveys</h1>

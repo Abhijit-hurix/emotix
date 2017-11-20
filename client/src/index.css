@@ -7,9 +7,16 @@ body {
 .parallax-container .parallax img{
 	display: block;
 }
-
 .header{
 	color: #fff;
+	animation: moving 5s infinite linear;
+}
+@keyframes moving {
+	0% {width: 100%;}
+  25% {width: 100%;}
+  50% {width: 80%;}
+  75% {width: 100%;}
+	100% {width: 100%;}
 }
 nav{
 	position: fixed;
@@ -17,10 +24,12 @@ nav{
 	width: 100%;
 	z-index: 1;
 	background: #035a6f;
+	line-height: 64px;
 	height: 63px;
 }
 nav .brand-logo{
 	left:20px;
+	line-height: 64px;
 }
 nav .google:hover{
 	color:#fff;
@@ -32,6 +41,7 @@ nav .google{
 	min-width: 100px;
 	text-align: center;
 	margin: 0px 0px 0px 4px;
+	top: 0px;
 }
 nav .about{
 	position: relative;
@@ -44,7 +54,7 @@ nav .about{
 	top:63px;
 	left:0px;
 	width: 100%;
-	height: 562px;
+	height: 85.2%;
 	overflow: hidden;
 }
 .landing{
@@ -56,7 +66,7 @@ nav .about{
 }
 .landing .raw{
 	position: relative;
-	height: 562px;
+	height: 100%;
 	width: 100%;
 	top:0px;
 	float: left;
@@ -91,7 +101,7 @@ nav .about{
 	right: 10px;
 	height: 40px;
 	width:20px;
-	top:500px;
+	bottom:130px;
 }
 .arrow_container i {
     border: solid white;
@@ -117,7 +127,7 @@ nav .about{
     right: 10px;
     width: 20px;
     height: 111px;
-    bottom: 129px;
+    bottom: 260px;
 }
 .dot{
     position: relative;
