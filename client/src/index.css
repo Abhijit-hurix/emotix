@@ -12,11 +12,11 @@ body {
 	animation: moving 5s infinite linear;
 }
 @keyframes moving {
-	0% {width: 100%;}
+	0% {width: 120%;}
   25% {width: 100%;}
   50% {width: 80%;}
   75% {width: 100%;}
-	100% {width: 100%;}
+	100% {width: 120%;}
 }
 nav{
 	position: fixed;
